@@ -57,6 +57,10 @@ class Cart {
 }
 
 
+/**
+ * Cria dois produtos
+ */
+
 const product1 = new Product("789698523", "Product 1", 15, 1)
 const product2 = new Product("789698526", "Product 2", 35.22, 2)
 
@@ -84,7 +88,7 @@ console.log('Added Product')
 console.log('Cart Total => ', cart.getTotal())
 
 /**
- * Remove todos um produto do carrinho e mostra o total do carrinho atualizado
+ * Remove um produto do carrinho e mostra o total do carrinho atualizado
  */
 cart.removeProduct(
     product1.id
