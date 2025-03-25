@@ -34,25 +34,17 @@ tsc index.ts
 tsc --init
 ```
 
-- Com o arquivo gerado também podemos utilizar o comando abaixo para que o código da nossa aplicação seja monitorado e quando houver atualizações ocorra uma nova compilacão de forma automática
-- Para isso, adicione ao tsconfig.json as configurações
+- Especificando as configurações abaixo no arquivo tsconfig.json também podemos utilizar o comando `tsc --watch` para monitorar os arquivos mapeados quando tiverem alterações
 
 ```json
 {
   "compilerOptions": {
     // ...
     "rootDir": "./src",             /* Especifica o diretório que contém os códigos Typescript */
-    "outDir": "./dist",             /* Especifica o diretório na qual os arquivos compilados serão criados */
+    "outDir": "./public/js",             /* Especifica o diretório na qual os arquivos compilados serão criados */
     // ...
   }
 }
-
-- Para que seja compilado automaticamente, execute o comando
-
-```shell
-tsc --watch
-```
-
 ```
 
 # Como preparar o ambiente de desenvolvimento para utilizar Typescript
