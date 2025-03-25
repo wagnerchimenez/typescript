@@ -14,7 +14,7 @@ Este projeto tem como objetivo dar um norte para quem está começando com Types
 - Typescript é uma linguagem de programação baseada no Javascript. Ele adiciona algumas funcionalidades que não estáo presentes na versão nativa do Javascript. Resumindo: Typescript é um Javascript com super poderes.
 - O Typescript precisa ser compilado para que seja executado nos navegadores (Chrome, Firefox, etc).
 
-> Na imagem abaixo temos uma representação desse processo. Páginas Html, incluem arquivos Css e Javascript. O Typescript é compilado e gerado um arquivo Javascript que é incluído na página web
+> Na imagem abaixo temos uma representação desse processo. Páginas Html, incluem arquivos Css e Javascript. O Typescript é compilado e arquivos Javascript são gerados para que possam ser incluídos nas páginas web
 
 ![como-funciona-typescript.png](./docs/como-funciona-typescript.png)
 
