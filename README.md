@@ -1,6 +1,8 @@
-# TypeScript
+# Typescript
 
-Este projeto tem como objetivo dar um norte para quem está começando com Typescript
+Este é um projeto pessoal que tem como objetivo ajudar quem está iniciando com Typescript.
+
+Também tem como objetivo ser utilizado para estudo, experimentar recursos da linguagem conforme houver a necessidade.
 
 # O que você vai encontrar aqui?
 
