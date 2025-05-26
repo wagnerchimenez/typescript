@@ -65,7 +65,13 @@ brew install node
 - [Instalar o TypeScript usando o gerenciador de pacores npm](https://www.typescriptlang.org/download/)
 
 ```shell
-npm install typescript 
+sudo npm install -g typescript 
+```
+
+- Para verificar se foi instalado basta executar o comando abaixo, no qual será mostrada a versão do typescript instalada
+
+```shell
+tsc -v
 ```
 
 # Extensões VS Code
